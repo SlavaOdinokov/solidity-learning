@@ -4,7 +4,6 @@ import { SignerWithAddress } from "@nomiclabs/hardhat-ethers/signers";
 import { PaymentContract } from "../typechain-types";
 
 describe("PaymentContract", function () {
-  console.log("start tests");
   let acc1: SignerWithAddress;
   let acc2: SignerWithAddress;
   let payments: PaymentContract;
